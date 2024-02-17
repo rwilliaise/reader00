@@ -2,7 +2,13 @@
 
   (uuid af8aa774-cf16-4979-97b3-26b58c30ee15)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "reader00 Shield Arduino")
+    (rev "1")
+    (company "rwilliaise")
+  )
 
   (lib_symbols
     (symbol "MCU_Module:Arduino_Nano_Every" (in_bom yes) (on_board yes)
@@ -550,7 +556,7 @@
     (property "Reference" "A1" (at 159.6741 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Arduino_Nano_Every" (at 159.6741 125.73 0)
+    (property "Value" "Arduino Nano Every" (at 159.6741 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Module:Arduino_Nano" (at 157.48 97.79 0)

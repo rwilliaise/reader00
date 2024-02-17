@@ -2,7 +2,13 @@
 
   (uuid 6c6f8f01-73ee-4caa-8e4e-2be1e2e97b79)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "reader00 Shield")
+    (rev "1")
+    (company "rwilliaise")
+  )
 
   (lib_symbols
   )

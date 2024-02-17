@@ -2,7 +2,13 @@
 
   (uuid 4560bad9-345a-4c5d-a4ae-550d8527b715)
 
-  (paper "A4")
+  (paper "USLetter")
+
+  (title_block
+    (title "reader00 Shield Flash")
+    (rev "1")
+    (company "rwilliaise")
+  )
 
   (lib_symbols
     (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
