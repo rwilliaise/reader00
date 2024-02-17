@@ -1,0 +1,60 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 6c6f8f01-73ee-4caa-8e4e-2be1e2e97b79)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 64.77 88.9) (size 50.8 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 65a9777c-3a4f-4d77-a98b-5ac0696b10b3)
+    (property "Sheetname" "arduino" (at 64.77 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "arduino.kicad_sch" (at 64.77 130.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "D[0..7]" bidirectional (at 115.57 91.44 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 37d7a11d-b03d-473f-a055-7ec190f02880)
+    )
+    (instances
+      (project "reader_shield"
+        (path "/6c6f8f01-73ee-4caa-8e4e-2be1e2e97b79" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 176.53 77.47) (size 45.72 43.18) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 9a153196-bc45-432f-ad76-040238d0250e)
+    (property "Sheetname" "flash" (at 176.53 76.7584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "flash.kicad_sch" (at 176.53 121.2346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "A[0..22]" bidirectional (at 176.53 80.01 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 601a1077-e80b-4ace-aaf4-36c2c1daa7b5)
+    )
+    (pin "Q[0..15]" bidirectional (at 176.53 82.55 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c2787b27-1d58-451c-84b4-907788f07fc9)
+    )
+    (instances
+      (project "reader_shield"
+        (path "/6c6f8f01-73ee-4caa-8e4e-2be1e2e97b79" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

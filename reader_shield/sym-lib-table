@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "reader_flash")(type "KiCad")(uri "${KIPRJMOD}/reader_flash.kicad_sym")(options "")(descr ""))
+)
