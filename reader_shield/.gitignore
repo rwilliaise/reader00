@@ -1,5 +1,6 @@
-*.000
 *-backups/
+production/
+*.000
 *.bak
 *.bck
 *.kicad_pcb-bak
@@ -12,3 +13,6 @@ fp-info-cache
 *.net
 *.dsn
 *.ses
+*.gbr
+*.gbrjob
+*.drl
