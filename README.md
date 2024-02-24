@@ -1,4 +1,5 @@
 # reader00
+<a href="https://raja.rocks/projects/E120P1010A00.html"><img alt="Static Badge" src="https://img.shields.io/badge/raja.rocks-E120P1010A00-lightgray?style=flat-square"></a>
 
 The objective of reader00 is to read the memory off of a flash memory IC found
 inside of consumer electronics. It is unknown if the memory on the chip is 1.
